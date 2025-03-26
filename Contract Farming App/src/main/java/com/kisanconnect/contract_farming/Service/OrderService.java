@@ -52,6 +52,7 @@ public class OrderService {
         order.setListingId(orderRequest.getListingId());
         order.setAmount(orderRequest.getAmount());
         order.setQuantity(Long.parseLong(orderRequest.getQuantity()));
+        order.setAgreementId(orderRequest.getAgreementId());
 
         return orderRepository.save(order);
     }

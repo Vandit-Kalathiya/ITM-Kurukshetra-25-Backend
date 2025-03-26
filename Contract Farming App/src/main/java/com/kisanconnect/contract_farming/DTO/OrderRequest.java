@@ -14,4 +14,6 @@ public class OrderRequest {
     private String listingId;
     private Long amount;
     private String quantity;
+    private String agreementId;
+
 }
